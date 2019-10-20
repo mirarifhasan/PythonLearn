@@ -15,16 +15,16 @@ function.py :
 
 class_object.py :
 1. Object-Class
-2. Constractor
-3. pass keyword
+2. Constructor
+3. pass keyword (for inheritance)
 
 
 module.py & module_execute.py :
 1. Module codes, like import from another .py file
-2. Date Time
+2. Date Time (build in function)
 
 
-json.py [UPDATING]
+jsonPractice.py [UPDATING]
 1. Working with JSON class
 
 

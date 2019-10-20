@@ -24,7 +24,7 @@ print()
 try:
   print(x)
 except:
-  print("Something went wrong")
+  print("Something went wrong (finally block example)")
 finally:
   print("The 'try except' is finished")
 # finally block, if specified, will be executed regardless if the try block raises an error or not
@@ -36,5 +36,10 @@ try:
   f.write("Lorum Ipsum")
 except:
   print("Something went wrong when writing to the file")
-finally:
+else:
   f.close()
+
+# Short Note:
+# except block execute when try has error
+# else block execute when try has no error
+# finally block always execute

@@ -49,6 +49,9 @@ print(arr[1]) #Printing the second element of array
 arr.append("Kafi") #Insert in array
 arr.insert(1, "Arif")
 
+#Sorting
+sorted(arr) #sort in alphabetical order
+
 arr.remove('Abir')
 arr.pop() #Remove fron last index
 #del arr[3] #Delete the full array
